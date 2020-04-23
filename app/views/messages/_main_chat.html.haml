@@ -1,0 +1,33 @@
+.chat-main
+  .chat-main__header
+    .chat-main__header__main
+      .left
+        %h2.group-about test
+        %ul.member-list
+          %li Menber:
+          %li test1
+          %li test2
+      .main__header__edit-btn
+        = link_to "#" do
+          Edit
+  
+  .messages
+    .message
+      .message__upper-info
+        %p.message__upper-info__talker Taro
+        %p.message__upper-info__date 2020/04/23(thu)12:22:22
+      %p.message__text aaaaaa
+    .message
+      .message__upper-info
+        %p.message__upper-info__talker Taro
+        %p.message__upper-info__date 2020/04/23(thu)12:22:22
+      %p.message__text aaaaaa
+  
+  .form
+    %form
+      %input.form__message
+      .form__mask
+        %label.form__mask__image
+          = icon('fa','image', class: 'icon')
+          %input.hidden{type: 'file'}
+    %input.form__submit{type: 'submit', value: 'Send'}    
