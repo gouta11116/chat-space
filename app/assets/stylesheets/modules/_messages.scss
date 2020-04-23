@@ -112,21 +112,21 @@
           padding: 46px 40px;
             .message {
               padding-bottom: 40px;
-                .message__upper-info {
+                &__upper-info {
                   margin-bottom: 10px;
                   display: flex;
-                  p.message__upper-info__talker {
+                  &__talker {
                     color: #333333;
                     font-size: 16px;
                     font-weight: bold;
                   }
-                  p.message__upper-info__date {
+                  &__date {
                     color: #999999;
                     font-size: 12px;
                     margin-left: 10px;
                   }
                 }
-                p.message__text {
+                &__text {
                   font-size: 14px;
                   margin-bottom: 10px;
                   color: #434a54;
