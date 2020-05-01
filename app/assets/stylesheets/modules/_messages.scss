@@ -44,7 +44,6 @@
           padding:20px 20px 0 ;
           .group {
             color: #ffffff;
-            text-decoration: none;
             p.group__group-name {
               font-size: 15px;
               margin-bottom: 5px;
@@ -55,6 +54,9 @@
               font-size: 11px;
               margin-bottom: 40px;
               color: #ffffff;
+              text-decoration: none;
+            }
+            a {
               text-decoration: none;
             }
           }
@@ -155,7 +157,6 @@
             background-color: white;
             float: left;
             height: 50px;
-            padding-right: 10px;
             &__image {
               font-size: 20px;
               line-height: 50px;
