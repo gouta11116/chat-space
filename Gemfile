@@ -66,6 +66,7 @@ gem 'factory_bot_rails'
 gem 'faker'
 
 gem 'carrierwave'
+gem 'fog-aws'
 gem 'mini_magick'
 
 group :production do

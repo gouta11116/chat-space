@@ -19,3 +19,5 @@
 public/uploads/*
 
 .DS_store
+
+config/secrets.yml
