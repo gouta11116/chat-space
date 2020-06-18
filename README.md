@@ -63,4 +63,4 @@ has_many:messages
 
 ###Association
 belongs_to:group
-belongs_to:users
+belongs_to:user
